@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import person from "./components/person.vue";
+import person from "../备份/15_watch监视 情况三/components/person.vue";
 
 export default defineComponent({
   name: "App",

@@ -1,6 +1,11 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "备份/15_watch监视 情况三/components/person.vue"
+  ],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "composite": true,
